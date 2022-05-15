@@ -27,7 +27,7 @@ ul{
 a{
     text-decoration: none;
     display: inline-block;
-    color: rgb(70, 78, 14);
+    color: rgb(129, 144, 35);
 }
 
 img{
@@ -45,6 +45,8 @@ nav, .servicios, .presentacion, .footer-content{
     margin-bottom: 10%;
 }
 
+
+
 // Variables
 
 $font-p: 1.8rem;
@@ -56,6 +58,12 @@ p{
     font-size:$font-p;
     color: rgb(39, 57, 41);
     text-align:left;
+}
+
+h1{
+    color: #4dcf22;
+    font-weight: bold;
+
 }
 
 h2{
@@ -89,13 +97,16 @@ h3{
 
 .btn-principal{
     @extend .btn;
-    color: #fff;
+    color: rgb(202, 233, 65);
     background-color: #2b964d;
+    font-weight: bold;
 }
 
 .btn-secundario{
     @extend .btn;
     background-color:rgb(245, 245, 83);
+    color: #4dcf22;
+    font-weight: bold;
 }
 
 // USO DE MIXINS EN SASS;

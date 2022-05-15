@@ -24,7 +24,7 @@ ul {
 a {
   text-decoration: none;
   display: inline-block;
-  color: rgb(70, 78, 14);
+  color: rgb(129, 144, 35);
 }
 
 img {
@@ -46,6 +46,11 @@ p {
   font-size: 1.8rem;
   color: rgb(39, 57, 41);
   text-align: left;
+}
+
+h1 {
+  color: #4dcf22;
+  font-weight: bold;
 }
 
 h2 {
@@ -75,12 +80,15 @@ h3 {
 }
 
 .btn-principal {
-  color: #fff;
+  color: rgb(202, 233, 65);
   background-color: #2b964d;
+  font-weight: bold;
 }
 
 .btn-secundario {
   background-color: rgb(245, 245, 83);
+  color: #4dcf22;
+  font-weight: bold;
 }
 
 .ejemplo {
@@ -162,7 +170,7 @@ nav ul a:hover {
 
 footer {
   min-height: 80px;
-  background-color: rgb(52, 53, 51);
+  background-color: rgb(116, 126, 107);
   margin-top: 0;
 }
 footer .footer-content {
